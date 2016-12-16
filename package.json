@@ -1,0 +1,66 @@
+{
+  "name": "imag-nativescript-sass",
+  "version": "0.1.0",
+  "description": "SASS CSS pre-processor for NativeScript projects.",
+  "scripts": {
+    "test": "exit 0",
+    "postinstall": "node postinstall.js",
+    "preuninstall": "node preuninstall.js"
+  },
+  "nativescript": {
+    "hooks": [
+      {
+        "type": "before-prepare",
+        "script": "lib/before-prepare.js",
+        "inject": true
+      },
+      {
+        "type": "after-prepare",
+        "script": "lib/after-prepare.js",
+        "inject": true
+      }
+    ]
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToddAnglin/nativescript-dev-sass.git"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "node-sass": "*",
+    "glob": "*",
+    "nativescript-hook": "^0.2.0"
+  },
+  "gitHead": "26854cf5a0f852312438259cb49e9fb532333adf",
+  "bugs": {
+    "url": "https://github.com/ToddAnglin/nativescript-dev-sass/issues"
+  },
+  "homepage": "https://github.com/ToddAnglin/nativescript-dev-sass#readme",
+  "_id": "nativescript-dev-sass@0.4.1",
+  "_shasum": "78c0b9e37153881abb355bff4d9963f90462fd40",
+  "_from": "nativescript-dev-sass@latest",
+  "_npmVersion": "3.7.3",
+  "_nodeVersion": "5.9.0",
+  "_npmUser": {
+    "name": "toddanglin",
+    "email": "toddanglin@gmail.com"
+  },
+  "dist": {
+    "shasum": "78c0b9e37153881abb355bff4d9963f90462fd40",
+    "tarball": "https://registry.npmjs.org/nativescript-dev-sass/-/nativescript-dev-sass-0.4.1.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "toddanglin",
+      "email": "toddanglin@gmail.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/nativescript-dev-sass-0.4.1.tgz_1477604489416_0.3850429591257125"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/nativescript-dev-sass/-/nativescript-dev-sass-0.4.1.tgz",
+  "readme": "ERROR: No README data found!"
+}
